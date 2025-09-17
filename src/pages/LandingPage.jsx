@@ -242,7 +242,26 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </div>
-                <p className="text-center mt-10 text-gray-500">© {new Date().getFullYear()} The Laundry Shop. All rights reserved.</p>
+                <div className="mt-12 flex flex-col md:flex-row justify-center items-center gap-2 text-sm text-gray-600">
+                    <p className="text-gray-500 text-center md:ml-6">
+                        © {new Date().getFullYear()} <span className="font-semibold">The Laundry Shop</span>. All rights reserved.
+                    </p>
+                    <div className="flex gap-2">
+                        <Link
+                            to={"/terms-and-conditions"}
+                            className="hover:text-blue-700 hover:underline transition"
+                        >
+                            Terms & Conditions
+                        </Link>
+                        <Link
+                            href="/privacy"
+                            className="hover:text-blue-700 hover:underline transition"
+                        >
+                            Privacy Policy
+                        </Link>
+                    </div>
+                </div>
+
             </footer>
 
         </div>

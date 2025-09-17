@@ -254,7 +254,7 @@ export default function LandingPage() {
                             Terms & Conditions
                         </Link>
                         <Link
-                            href="/privacy"
+                            to={"/privacy-policy"}
                             className="hover:text-blue-700 hover:underline transition"
                         >
                             Privacy Policy

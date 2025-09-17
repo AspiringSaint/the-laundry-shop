@@ -33,7 +33,7 @@ const LoginPage = () => {
 
                 {/* Password */}
                 <div className="relative">
-                    <Lock className="absolute left-3 top-1/2-translate-y-1/2 text-gray-400" size={20} />
+                    <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                     <input
                         type="password"
                         name="password"

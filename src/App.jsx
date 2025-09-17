@@ -1,11 +1,12 @@
 import { Routes, Route } from "react-router-dom"
 import { Toaster } from 'react-hot-toast';
 
+import LandingPage from "./pages/LandingPage";
 import PublicLayout from "./layouts/PublicLayout";
 
 // Auth Pages
 import LoginPage from "./pages/auth/LoginPage";
-import LandingPage from "./pages/LandingPage";
+import RegisterPage from "./pages/auth/RegisterPage";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         {/* Public Routes */}
         <Route element={<PublicLayout />}>
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
         </Route>
         
       </Routes>

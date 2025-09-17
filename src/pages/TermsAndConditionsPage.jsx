@@ -168,7 +168,7 @@ export default function TermsAndConditions() {
             content: (
                 <p className="text-gray-700">
                     Your data is processed according to the Data Privacy Act of 2012 (RA 10173).
-                    Read our <Link to={"/privacy-policy"} className="text-blue-600 hover:underline">Privacy Policy </Link>
+                    Read our <Link to={"/privacy-policy"} className="text-blue-600 hover:underline">Privacy Policy{" "}</Link>
                     to learn how we collect, use, and store your information.
                 </p>
             ),
@@ -178,7 +178,7 @@ export default function TermsAndConditions() {
             title: "Intellectual Property",
             content: (
                 <p className="text-gray-700">
-                    All logos, branding, website design, and content are the property of <strong>The Laundry Shop </strong>
+                    All logos, branding, website design, and content are the property of <strong>The Laundry Shop{" "}</strong>
                     and may not be copied, modified, or used without prior written permission.
                 </p>
             ),
@@ -256,8 +256,8 @@ export default function TermsAndConditions() {
                         <Mail className="w-8 h-8 text-blue-600 mx-auto mb-3" />
                         <h2 className="text-xl font-bold text-blue-700 mb-2">Questions?</h2>
                         <p className="text-gray-700">
-                            Email us at <span className="font-semibold">support@laundryshop.com </span>
-                            or call us at <span className="font-semibold">(123) 456-7890</span>.
+                            Email us at <span className="font-semibold">support@laundryshop.com</span>
+                            {" "}or call us at <span className="font-semibold">(123) 456-7890</span>.
                         </p>
                     </section>
                 </div>

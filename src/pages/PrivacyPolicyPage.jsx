@@ -131,7 +131,7 @@ export default function PrivacyPolicy() {
                                 support@laundryshop.com
                             </a>{" "}
                             or read our{" "}
-                            <Link to="/terms" className="text-blue-600 hover:underline">
+                            <Link to="/terms-and-conditions" className="text-blue-600 hover:underline">
                                 Terms & Conditions
                             </Link>{" "}
                             for more details.

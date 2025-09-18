@@ -127,9 +127,9 @@ export default function PrivacyPolicy() {
                         <h2 className="text-xl font-bold text-blue-700 mb-2">Have Questions?</h2>
                         <p className="text-gray-700">
                             Email us at{" "}
-                            <a href="mailto:support@laundryshop.com" className="text-blue-600 hover:underline">
+                            <span className="font-semibold">
                                 support@laundryshop.com
-                            </a>{" "}
+                            </span>{" "}
                             or read our{" "}
                             <Link to="/terms-and-conditions" className="text-blue-600 hover:underline">
                                 Terms & Conditions
